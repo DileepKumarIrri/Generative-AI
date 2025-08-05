@@ -1,0 +1,38 @@
+LangGraph
+Pyndatic AI
+Crew AI
+Phidata
+Smolagents
+AutoGen
+
+https://www.linkedin.com/posts/akshay-pachaar_agentic-design-patterns-clearly-explained-activity-7286364311659167744-SKoI?utm_source=share&utm_medium=member_android 
+Top 5 Agentic AI Design Patterns
+
+Agents allow LLMs to repeatedly refine their output by incorporating self-evaluation, planning, and collaboration!
+
+1. Reflection Pattern  
+   - Concept: In this pattern, it first generates the output, evaluates it, spots any mistakes or areas for improvement, and revises the output.  
+   - Example: It's like an editor reviewing a document multiple times, making refinements until the final version is perfect.  
+   - Usage: It’s useful when the AI needs to improve its own reasoning or fix errors in its responses before delivering the final result.
+
+2. Tool Use Pattern  
+   - Concept: In this pattern, the LLM uses external tools rather than relying only on its internal knowledge to extend its capabilities.
+              It can query databases, call APIs, or execute scripts to gather more information or take actions.  
+   - Example: Just as humans use a calculator, web search, or APIs to aid thinking, agents also use tools for external compute and data retrieval.  
+   - Usage: This pattern helps AI perform tasks that require real-time data, computation, or actions beyond its pre-trained knowledge.
+
+3. ReAct (Reasoning and Acting)  
+   - Concept: This pattern combines both Reflection and Tool Use. The agent first reflects on its reasoning and decisions and then takes action using external tools. 
+              It forms a feedback loop, where reasoning and action work together.  
+   - Example: A chatbot might first analyze a customer's issue (reasoning), then query a database for more details (acting), and then re-evaluate its reasoning based on the new data.  
+   - Usage: ReAct is powerful for tasks where the agent must reason about the problem, take action (like using tools), and then refine the reasoning based on the new outcomes.
+
+4. Planning Pattern  
+   - Concept: This pattern enables the AI to break down complex tasks into smaller, manageable subtasks, creating a step-by-step roadmap for accomplishing a goal.  
+   - Example: Imagine an AI assistant helping with an essay. It plans the introduction, body, and conclusion, organizes supporting arguments, and then drafts each section systematically.  
+   - Usage: Best for tasks requiring structured problem-solving and multiple stages, such as project management or complex workflows.
+
+5. Multi-Agent Pattern  
+   - Concept: In this pattern, multiple specialized agents collaborate to tackle a problem, each contributing their expertise to achieve a shared goal.  
+   - Example: In a project, one agent might handle data processing, another focuses on decision-making, and a third on implementation. Together, they deliver the final solution.  
+   - Usage: This is useful for solving complex tasks that need different skills, like a team of experts working on different parts of a project.

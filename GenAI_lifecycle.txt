@@ -1,0 +1,123 @@
+Basic Deep Learning Architectures:
+
+simple RNN--->LSTM--->GRU
+Bidirectional RNN
+Encoder-Decoder
+Self-Attention--->Transformer--->Flash Attention
+
+
+Data extraction:
+1.Web Crawlers
+2.Web Scrappers
+3.Document parsers
+----------------------------------------------------------------------------------------------------------------------------------
+LLM Framework Libraries: langchain, llama-index, Haystack, txtai
+RAG Construction:
+1.Load, Chunk, Embed, Index, Store {Vector DB, Graph DB.}
+2.RAG {25 types}--->{Retrieve relevant documents, Generte text } + Guardrail's{AI for safety, Ethical AI}.
+3.Prompting {20 types}
+4.Pre Trained LLM's
+5.Finetuning, Quantization--->SFTT,LORA,QLORA,PEFT
+  - Adapters
+  - Finetunes
+  - Quantizations
+6.RAG Evaluation's:  
+-----------------------------------------------------------------------------------------------------------------------------------
+Agentic Frameworks: Langgraph, CrewAI, AutoGen, Magnetic-1, PhiData, Pydantic.AI, smolagents, IBM BeeAgent, OpenAI Swarm
+Agents:
+1.opereator,cursor,deepreasearch, ManusAI, OpenManus
+2.500 Agents github repository
+------------------------------------------------------------------------------------------------------------------------------------
+
+Data Extraction:
+1.web Scrappers	: Crawl4AI, FireCrawl, ScrapeGraphAI 
+2.Document Parsers: MegaParser, Docling, LLama parse,ExtractThinker, pymupdf4llm
+
+RAG Construction:
+1.Chunking
+  - Character text splitter
+  - Recursive character text splitter
+  - Document specific splitting
+  - semantic splitting
+  - agentic splitting
+
+4.Types of LLM's:
+  - Reasoning LLM's
+  - OCR LLM's
+  - Coding reasoning models
+  - healthcare reasoning models
+  - VLM's
+  - Multimodal LLM's
+
+Open source LLM's:
+  - LLAMA
+  - GEMMA
+  - QWEN
+  - FALCON
+  - MIXTRAL
+  - PHI
+
+Open LLM access:
+  - Huggingface 
+  - ollama
+Properiator Models:
+   - Anyscale, Bedrock, Fireworks.ai, lepton.ai, groq, perplexity.ai, replicate, Together.ai
+
+LLM Generation parameters:
+ - temperature
+ - max_tokens
+ - top_p
+ - top_k
+ - frequency_penalty
+ - presence_penalty
+ - stop
+
+Output:{Sync, Sync stream, Async, Async stream, Async batch }
+Tracking token usage
+
+
+6. RAG Evaluation's:  
+  - RAGAS
+  - DeepEval
+  - Langsmith
+  - TruLens
+  - Uptrain
+  - ARES
+  - Tonic Validate
+
+
+
+---------------------------------------------------------------------------------------------
+RAG:
+1.Basic LLM Chain	: chain = prompt | llm | output_parser
+2.Retrieval LLM Chain	:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
